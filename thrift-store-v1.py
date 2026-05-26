@@ -136,7 +136,6 @@ master_data = {
 # ====================== STREAMLIT APP ======================
 st.set_page_config(page_title="Fantastic Finds Tools Hub", layout="wide")
 st.title("🛍️ Fantastic Finds Thrift Store - Tools Dashboard")
-st.markdown("**Gulf Shores, Alabama** | Owned by Nathan Rossow | 2027 Launch")
 st.caption("One centralized place to see what software tool is needed for every function in the business.")
 
 # Sidebar Navigation
@@ -191,5 +190,5 @@ elif page == "Master Tools Overview":
 
 # Footer
 st.divider()
-st.markdown("**Recommended Stack for Fantastic Finds**: **Square** (Main POS + Inventory) + Connecteam/Homebase (Team) + Process Street (SOPs)")
-st.caption("Built for Nathan Rossow's thrift store business plan")
+st.markdown("**Recommended Stack**: **Square** (Main POS + Inventory) + Connecteam/Homebase (Team) + Process Street (SOPs)")
+st.caption("Tools Dashboard for Fantastic Finds Thrift Store")
