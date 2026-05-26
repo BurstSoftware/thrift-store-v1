@@ -135,14 +135,14 @@ master_data = {
 # ====================== SANITIZED BUSINESS PLAN ======================
 business_plan = """
 **Comprehensive Business Plan**  
-**Fantastic Finds Thrift Store**
+**[Thrift Store Name]**
 
 **Sole Owner & Operator:** [Owner Name]  
 
 **Launch:** 2027
 
 ### Executive Summary
-Fantastic Finds is a high-volume, curated thrift and resale store. [Owner Name] is the 100% sole owner of the LLC and the only individual performing physical operations. All non-physical tasks are automated through 6 specialized virtual AI agents supported by Shopify as the central platform.
+[Thrift Store Name] is a high-volume, curated thrift and resale store. [Owner Name] is the 100% sole owner of the LLC and the only individual performing physical operations. All non-physical tasks are automated through 6 specialized virtual AI agents supported by Shopify as the central platform.
 
 [Owner Name] will work an 8-hour workday, 7 days a week (56 hours per week) handling only physical tasks. The business capitalizes on strong tourism economy and resident base for high sales velocity in affordable secondhand goods priced $1–$5.
 
@@ -167,7 +167,7 @@ The area combines a stable resident base with strong tourism. High discretionary
 Target customers: Local families, retirees, budget-conscious residents, and tourists seeking vacation outfits, souvenirs, and home accents.
 
 ### Products and Services
-**Top 20 Common High-Volume / High-Margin Staples:**
+**Top 20 Common High-Volume / High-Margin Staples:**  
 1. Clothing (name-brand, vintage, denim)  
 2. Shoes  
 3. Books  
@@ -249,8 +249,8 @@ Donation intake & physical processing, Merchandising & store displays, Customer 
 """
 
 # ====================== STREAMLIT APP ======================
-st.set_page_config(page_title="Fantastic Finds Tools Hub", layout="wide")
-st.title("🛍️ Fantastic Finds Thrift Store - Tools Dashboard")
+st.set_page_config(page_title="[Thrift Store Name] Tools Hub", layout="wide")
+st.title("🛍️ [Thrift Store Name] - Tools Dashboard")
 st.caption("One centralized place to see what software tool is needed for every function in the business.")
 
 # Sidebar Navigation
@@ -293,4 +293,4 @@ elif page == "Master Tools Overview":
 # Footer
 st.divider()
 st.markdown("**Recommended Stack**: **Square** (Main POS + Inventory) + Connecteam/Homebase (Team) + Process Street (SOPs)")
-st.caption("Tools Dashboard for Fantastic Finds Thrift Store")
+st.caption("Tools Dashboard for [Thrift Store Name]")
